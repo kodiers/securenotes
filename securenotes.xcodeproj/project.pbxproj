@@ -56,15 +56,55 @@
 		AC71598F2485A013004386DF /* securenotes */ = {
 			isa = PBXGroup;
 			children = (
+				AC7159A82485A09C004386DF /* Helpers */,
+				AC7159A72485A091004386DF /* Enums */,
+				AC7159A62485A087004386DF /* Model */,
+				AC7159A52485A081004386DF /* View */,
+				AC7159A42485A077004386DF /* Controller */,
 				AC7159902485A013004386DF /* AppDelegate.swift */,
 				AC7159922485A013004386DF /* SceneDelegate.swift */,
-				AC7159942485A013004386DF /* ViewController.swift */,
 				AC7159962485A013004386DF /* Main.storyboard */,
 				AC7159992485A016004386DF /* Assets.xcassets */,
 				AC71599B2485A016004386DF /* LaunchScreen.storyboard */,
 				AC71599E2485A016004386DF /* Info.plist */,
 			);
 			path = securenotes;
+			sourceTree = "<group>";
+		};
+		AC7159A42485A077004386DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC7159942485A013004386DF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC7159A52485A081004386DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC7159A62485A087004386DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC7159A72485A091004386DF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		AC7159A82485A09C004386DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
