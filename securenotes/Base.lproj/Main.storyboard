@@ -67,6 +67,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="SecureNotes" id="PnU-06-K7Q">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="4CO-wO-HfW">
+                            <color key="tintColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="WCG-GJ-7hp">
                             <color key="tintColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
@@ -82,7 +85,7 @@
         <!--Note DetailVC-->
         <scene sceneID="XWS-zd-jV7">
             <objects>
-                <viewController id="YGi-8Q-tRo" customClass="NoteDetailVC" customModule="securenotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="noteDetailVC" id="YGi-8Q-tRo" customClass="NoteDetailVC" customModule="securenotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NzW-97-PDd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +107,9 @@
                                 <state key="normal" title="LOCK NOTE">
                                     <color key="titleColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="lockNoteBtnPressed:" destination="YGi-8Q-tRo" eventType="touchUpInside" id="vja-gs-66i"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -118,6 +124,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RaI-lk-k5H"/>
                     </view>
+                    <connections>
+                        <outlet property="noteTextView" destination="SDu-3f-tz6" id="OuS-zC-Dz5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eHu-du-vDg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

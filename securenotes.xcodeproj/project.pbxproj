@@ -12,6 +12,7 @@
 		AC40DB7C2485A6F80035C3CD /* NoteObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40DB7B2485A6F80035C3CD /* NoteObjects.swift */; };
 		AC40DB7E2485A92F0035C3CD /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40DB7D2485A92F0035C3CD /* NoteCell.swift */; };
 		AC40DB802485AC090035C3CD /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC40DB7F2485AC090035C3CD /* NoteDetailVC.swift */; };
+		AC608006248704120000EE64 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC608005248704120000EE64 /* Helpers.swift */; };
 		AC7159912485A013004386DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7159902485A013004386DF /* AppDelegate.swift */; };
 		AC7159932485A013004386DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7159922485A013004386DF /* SceneDelegate.swift */; };
 		AC7159952485A013004386DF /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7159942485A013004386DF /* NoteVC.swift */; };
@@ -26,6 +27,7 @@
 		AC40DB7B2485A6F80035C3CD /* NoteObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteObjects.swift; sourceTree = "<group>"; };
 		AC40DB7D2485A92F0035C3CD /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		AC40DB7F2485AC090035C3CD /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
+		AC608005248704120000EE64 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		AC71598D2485A013004386DF /* securenotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = securenotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7159902485A013004386DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7159922485A013004386DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				AC40DB7B2485A6F80035C3CD /* NoteObjects.swift */,
+				AC608005248704120000EE64 /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				AC7159952485A013004386DF /* NoteVC.swift in Sources */,
 				AC7159912485A013004386DF /* AppDelegate.swift in Sources */,
 				AC40DB7A2485A69C0035C3CD /* LockStatus.swift in Sources */,
+				AC608006248704120000EE64 /* Helpers.swift in Sources */,
 				AC7159932485A013004386DF /* SceneDelegate.swift in Sources */,
 				AC40DB7E2485A92F0035C3CD /* NoteCell.swift in Sources */,
 				AC40DB782485A6130035C3CD /* Note.swift in Sources */,

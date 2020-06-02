@@ -10,10 +10,16 @@ import UIKit
 
 class NoteDetailVC: UIViewController {
 
+    @IBOutlet weak var noteTextView: UITextView!
+    
+    var note: Note!
+    var index: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        noteTextView.text = note.message
     }
     
 
@@ -27,4 +33,9 @@ class NoteDetailVC: UIViewController {
     }
     */
 
+    @IBAction func lockNoteBtnPressed(_ sender: Any) {
+        notesArray[index].lockStatus = lockStatusFlipper(note.lockStatus)
+        navigationController?.popViewController(animated: true)
+    }
+    
 }
